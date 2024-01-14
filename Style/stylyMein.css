@@ -1,0 +1,81 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+
+
+@font-face {
+    font-family: "Segoe UI";
+    font-weight: 700;
+    src: local("Segoe UI Bold");
+}
+@font-face {
+    font-family: "Segoe UI";
+    font-style: italic;
+    font-weight: 400;
+    src: local("Segoe UI Italic");
+}
+@font-face {
+    font-family: "Segoe UI";
+    font-style: italic;
+    font-weight: 700;
+    src: local("Segoe UI Bold Italic");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    
+}
+/* информация о родукции */
+.info-products{   
+    width: 80vw;
+    height: 26vw;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 10%;
+}
+.info-products h2, .info-products p {
+    font-weight: bold;
+
+    text-align: center;
+}
+.info-products h2{
+    font-size: 4vw;
+}
+.info-products p {
+    font-size: 2vw;
+}
+
+/* категория товаров */
+.product-category{
+    margin-bottom: 2vw;
+    text-align: center;
+    border-bottom: .3vw solid black;
+
+    font-size: 1.5vw;
+}   
+
+/* контейнер в котором хранятся 3 товара */
+.products{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-bottom: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.shoes img{
+    width: 24vw;
+    transition: all .3s;
+}
+.shoes img:hover{
+    width: 25vw;
+}
+.shoes h3, .shoes p{
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 1.5vw;
+}
